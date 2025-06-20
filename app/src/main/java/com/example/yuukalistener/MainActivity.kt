@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var sendButton: Button
     private lateinit var prefs: android.content.SharedPreferences
 
-    private val apiKey = "Bearer sk-c0c5a4a2a220402fa4ab8748287a80ed" // 替换为你的实际 key
+    private val apiKey = "Bearer " // 替换为你的实际 key
 
     private fun sendTestNotification(text: String) {
         val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
